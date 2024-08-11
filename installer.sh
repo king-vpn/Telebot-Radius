@@ -12,7 +12,7 @@ opkg install python3-pip
 sleep 1
 pip3 install pymysql python-telegram-bot
 pip install python-telegram-bot[job-queue]
-git clone https://github.com/Maizil41/Telebot-Radius.git
+git clone https://github.com/king-vpn/Telebot-Radius.git
 mv /root/Telebot-Radius/files/telebot /etc/init.d/
 mv /root/Telebot-Radius/files/telebot.py /usr/bin/
 chmod +x /usr/bin/telebot.py
