@@ -18,9 +18,7 @@ from telegram.constants import ParseMode
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, Updater, JobQueue, CommandHandler, CallbackContext, CallbackQueryHandler, MessageHandler, ContextTypes, filters, ConversationHandler
 
-# WARNING ❗
-# Script ini disusun oleh 𝐌𝐚𝐢𝐳𝐢𝐥(https://t.me/maizil41) gunakan secara wajar, jangan mengedit lalu mengunggah ulang ke grup lain tanpa konfirmasi terlebih dahulu.
-# ⓒ 2024 - Mutiara-Wrt by Maizil https://t.me/maizil41
+
 
 with open("/root/Telebot-Radius/files/auth", "r") as token_file:
     lines = token_file.readlines()
@@ -155,7 +153,7 @@ async def start(update: Update, context: CallbackContext):
 2. /cmd <cmd> - Custom cmd
 3. /restart - Restart Bot
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
-        button = InlineKeyboardButton(text="Dukung Owner", url="https://saweria.co/MutiaraWrt")
+        button = InlineKeyboardButton(text="Dukung Owner", url="https://t.me/aaswork25")
         keyboard = InlineKeyboardMarkup([[button]])
         await update.message.reply_text(f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ {commands}", reply_markup=keyboard)
 
@@ -173,7 +171,7 @@ BALANCE      :   Rp.{balance}
                 InlineKeyboardButton("DAPATKAN KODE", callback_data="get_code"),
                 InlineKeyboardButton("TOPUP SALDO", callback_data="start_topup"),
             ],
-            [InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/Maizil41")],
+            [InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/aaswork25")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await update.message.reply_text(welcome_message, reply_markup=reply_markup)
@@ -185,7 +183,7 @@ async def send_services_menu(update, context):
     welcome_message = f"""▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
     keyboard = [
     [
-        InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/Maizil41"),
+        InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/aaswork25"),
         InlineKeyboardButton("TOPUP SALDO", callback_data="start_topup"),
     ],
 ]
@@ -241,7 +239,7 @@ async def show_menu(update: Update, context: CallbackContext):
 2. /cmd <cmd> - Custom cmd
 3. /restart - Restart Bot
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
-        button = InlineKeyboardButton(text="Dukung Owner", url="https://saweria.co/MutiaraWrt")
+        button = InlineKeyboardButton(text="Dukung Owner", url="https://t.me/aaswork25")
         keyboard = InlineKeyboardMarkup([[button]])
         await update.message.reply_text(f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ {commands}", reply_markup=keyboard)
     else:
@@ -255,7 +253,7 @@ async def show_menu(update: Update, context: CallbackContext):
                 InlineKeyboardButton("DAPATKAN KODE", callback_data="get_code"),
                 InlineKeyboardButton("TOPUP SALDO", callback_data="start_topup"),
             ],
-            [InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/Maizil41")],
+            [InlineKeyboardButton("HUBUNGI ADMIN", url="https://t.me/aaswork25")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await update.message.reply_text(welcome_message, reply_markup=reply_markup)
@@ -2314,11 +2312,9 @@ async def handle_topup_amount(update: Update, context: CallbackContext):
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 LAKUKAN PEMBAYARAN KE NOMOR:
 
-* DANA : 0853-7268-7484
-* OVO    : 0853-7268-7484
-* SPAY  : 0853-7268-7484
+* DANA : 0812-9867-6776
 
-JIKA SUDAH MELAKUKAN PEMBAYARAN KIRIMKAN BUKTI TRANSFER KE ADMIN : @Maizil41
+JIKA SUDAH MELAKUKAN PEMBAYARAN KIRIMKAN BUKTI TRANSFER KE ADMIN : @aaswork25
 
 NOTE *LAKUKAN PEMBAYARAN DALAM 1JAM APABILA LEBIH DARI 1JAM TRANSAKSI DIANGGAP BATAL
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2328,7 +2324,7 @@ JUMLAH TRANSFER: Rp.{amount}
 STATUS : PENDING
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"""
             # Tombol untuk mengirim bukti
-            bukti = [[InlineKeyboardButton("KIRIM BUKTI", url="https://t.me/Maizil41")]]
+            bukti = [[InlineKeyboardButton("KIRIM BUKTI", url="https://t.me/aaswork25")]]
             reply_markup = InlineKeyboardMarkup(bukti)
 
             # Kirim pesan dengan tombol
@@ -2718,4 +2714,4 @@ def main():
 if __name__ == "__main__":
     main()
     
-     # ⓒ  2024 - Mutiara-Wrt by Maizil https://t.me/maizil41
+     # ⓒ  2024 - Mutiara-Wrt by Maizil https://t.me/aaswork25
