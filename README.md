@@ -1,6 +1,6 @@
 ### TELEGRAM BOT FOR OPENWRT DALORADIUS
 
-* [**OWNER**](https://t.me/maizil41)
+* [**OWNER**](https://t.me/king-vpn)
 ========================================================================
 ##### MANUAL INSTALL
 ```
@@ -18,7 +18,7 @@ pip install python-telegram-bot[job-queue]
 ===========================================================================
 ##### CLONE REPOSITORY
 ```
-git clone https://github.com/Maizil41/Telebot-Radius.git
+git clone https://github.com/king-vpn/Telebot-Radius.git
 ```
 ##### MOVE ALL SCRIPT
 ```
@@ -32,7 +32,7 @@ nano /root/Telebot-Radius/files/auth
 ##### AUTO INSTALLER
 
 ```
-cd /tmp && curl -sLko install https://raw.githubusercontent.com/Maizil41/Telebot-Radius/main/installer.sh && bash install
+cd /tmp && curl -sLko install https://raw.githubusercontent.com/king-vpn/Telebot-Radius/main/installer.sh && bash install
 ```
 *
 *
