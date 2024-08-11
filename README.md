@@ -1,7 +1,4 @@
 ### TELEGRAM BOT FOR OPENWRT DALORADIUS
-
-* [**OWNER**](https://t.me/king-vpn)
-========================================================================
 ##### MANUAL INSTALL
 ```
 opkg update
